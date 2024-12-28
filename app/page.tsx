@@ -1,22 +1,13 @@
 export default function Home() {
   return (
-    <div className="">
-      <header className="text-center">
-        <h1 className="text-3xl p-3">Rakshit Kr. Singh</h1>
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="projects.html">Projects</a>
-          <a href="posts.html">Blog</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-      </header>
-      <main className="">
-
-      </main>
-      <footer className="">
-
-      </footer>
-    </div>
+    <main style={{ fontFamily: "monospace", padding: "20px" }}>
+      <h1>Rakshit's Personal Blog</h1>
+      <p>Welcome to my personal website! Explore my blog, projects, and more.</p>
+      <nav>
+        <a href="/about" style={{ marginRight: "10px" }}>About</a>
+        <a href="/blog" style={{ marginRight: "10px" }}>Blog</a>
+        <a href="/contact">Contact</a>
+      </nav>
+    </main>
   );
 }
